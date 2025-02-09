@@ -1,0 +1,23 @@
+* {
+    background-color: whitesmoke;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(75, 105, 243);
+    font-size: 50px;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
