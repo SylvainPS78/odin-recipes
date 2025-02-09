@@ -3,11 +3,24 @@
     font-family: Verdana, Arial, sans-serif;
 }
 
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: rgb(56, 56, 56);
+}
+
 h1 {
     font-size: 80px;
     font-weight: bolder;
-    text-align: center;
     text-transform: uppercase;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
 }
 
 a {
@@ -16,8 +29,23 @@ a {
     font-size: 50px;
 }
 
-li {
-    text-align: center;
+.page-link {
     list-style: none;
     margin-bottom: 10px;
+}
+
+.home-link {
+    display: block;
+    width:200px;
+    margin: 0 auto 50px auto;
+}
+
+.ingredients li {
+    width:500px;
+    margin:5px auto;
+}
+
+.steps li {
+    width:1000px;
+    margin:5px auto;
 }
